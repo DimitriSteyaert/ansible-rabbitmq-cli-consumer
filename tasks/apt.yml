@@ -1,0 +1,9 @@
+---
+- name: Add the Vandenbrand.org apt key
+  apt_key:
+    url: http://apt.vandenbrand.org/apt.vandenbrand.org.gpg.key
+
+- name: Configure the Vandenbrand.org repo
+  apt_repository:
+    filename: rabbitmq-cli-consumer
+    repo: 'deb http://apt.vandenbrand.org/debian testing main'

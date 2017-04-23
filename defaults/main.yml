@@ -1,0 +1,3 @@
+---
+rabbitmq_cli_consumer_state: present
+rabbitmq_cli_consumer_purge: no

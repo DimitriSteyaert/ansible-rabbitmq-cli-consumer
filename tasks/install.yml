@@ -1,0 +1,6 @@
+---
+- name: Install the specified version of rabbitmq-cli-consumer
+  apt:
+    name: rabbitmq-cli-consumer
+    state: "{{ rabbitmq_cli_consumer_state }}"
+    purge: "{{ rabbitmq_cli_consumer_purge }}"

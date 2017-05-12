@@ -1,0 +1,34 @@
+---
+
+dependencies:
+  - role: DimitriSteyaert/golang
+
+galaxy_info:
+  author: 'Dimitri Steyaert'
+  description: 'Install the RabbitMQ cli consumer written in Go'
+  company: 'Steyaert Web Services'
+  license: 'MIT'
+  min_ansible_version: '1.9'
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - yakkety
+        - zesty
+    - name: Debian
+      versions:
+        - wheezy
+        - jessie
+  galaxy_tags:
+    - rabbitmq
+    - go
+    - golang
+
+ansigenome_info:
+  galaxy_id: 'DimitriSteyaert'
+  travis: False
+  synopsis: |
+    This role installs a RabbitMQ cli consumer written in Go.
+  usage: |
+    Not much to tell about this role. You can either define to install or remove this tool from your system by modifying the variables.

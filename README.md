@@ -31,10 +31,6 @@ rabbitmq_cli_consumer_purge: no
 ### Detailed usage guide
 
 Not much to tell about this role. You can either define to install or remove this tool from your system by modifying the variables.
-#### Examples
-
-These are some example configurations that can be used to tweak this role's setup.
-
 
 ### Authors and license
 

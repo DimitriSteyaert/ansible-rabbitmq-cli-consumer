@@ -32,6 +32,16 @@ rabbitmq_cli_consumer_purge: no
 
 Not much to tell about this role. You can either define to install or remove this tool from your system by modifying the variables.
 
+#### Examples
+
+This is a basic playbook to install RabbitMQ cli consumer with the default variables:
+```YAML
+---
+- hosts: all
+  roles:
+    - rabbitmq-cli-consumer
+```
+
 ### Authors and license
 
 The `rabbitmq-cli-consumer` role was written by:
